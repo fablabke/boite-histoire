@@ -1,0 +1,5 @@
+https://www.festi.info/boxes.py/ElectronicsBox?FingerJoint_angle=90.0&FingerJoint_style=rectangular&FingerJoint_surroundingspaces=2.0&FingerJoint_bottom_lip=0.0&FingerJoint_edge_width=1.0&FingerJoint_extra_length=0.0&FingerJoint_finger=2.0&FingerJoint_play=0.0&FingerJoint_space=2.0&FingerJoint_width=1.0&x=180&y=100&h=33&outside=0&triangle=20&d1=1&d2=2&d3=2&outsidemounts=0&holedist=7.0&thickness=3.5&format=svg&tabs=0.0&qr_code=0&debug=0&labels=0&labels=1&reference=100&inner_corners=loop&burn=0.15&language=fr&render=0
+
+
+
+
