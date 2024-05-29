@@ -18,6 +18,8 @@ Une première série de 30 boites à histoire a été construite avec les classe
 
 Ce projet est en cours de conception. [Contactez le fablab'ke](https://fablabke.be) pour plus d'informations.
 
+![](./guides/assets/resultat.jpg)
+
 ## Mais comment fabriquer sa boite à histoire?
 
 Lisez les documents suivants afin de comprendre les différentes étapes de fabrication et comment fabriquer la vôtre : 
