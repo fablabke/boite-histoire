@@ -12,6 +12,8 @@ Un autre inconvénient est que les bibliothèques d’histoires sont spécifique
 
 Nous avons décidé au Fablab'ke de développer et de fabriquer “notre” boîte à histoire maison, de créer en partenariat avec les autres cellules de la maison des cultures plusieurs projets autour de celle-ci, et d’en faire bénéficier les familles de la maison des cultures et au-delà.
 
+Cette boite à histoire permet d'y installer autant d'histoire qu'on le souhaite, sans devoir passer par un "app-store" et permet du coup d'inventer et de se partager des histoires entre participant.e.s.
+
 Une première série de 30 boites à histoire a été construite avec les classes d'informatique de Campus Saint Jean.
 
 Ce projet est en cours de conception. [Contactez le fablab'ke](https://fablabke.be) pour plus d'informations.
