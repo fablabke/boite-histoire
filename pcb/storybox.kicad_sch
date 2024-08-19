@@ -618,372 +618,6 @@
 				)
 			)
 		)
-		(symbol "Connector:Jack-DC"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 5.334 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Jack-DC"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 1.27 -1.016 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 1.27 -1.016 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "DC Barrel Jack"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "DC power barrel jack connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "BarrelJack*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Jack-DC_0_1"
-				(rectangle
-					(start -5.08 3.81)
-					(end 5.08 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(arc
-					(start -3.302 3.175)
-					(mid -3.9343 2.54)
-					(end -3.302 1.905)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -3.302 3.175)
-					(mid -3.9343 2.54)
-					(end -3.302 1.905)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 2.54) (xy 3.81 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 -2.54) (xy -2.54 -2.54) (xy -1.27 -1.27) (xy 0 -2.54) (xy 2.54 -2.54) (xy 5.08 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 3.683 3.175)
-					(end -3.302 1.905)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "Jack-DC_1_1"
-				(pin passive line
-					(at 7.62 2.54 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -2.54 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Connector:Screw_Terminal_01x02"
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Screw_Terminal_01x02"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "screw terminal"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TerminalBlock*:*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Screw_Terminal_01x02_1_1"
-				(rectangle
-					(start -1.27 1.27)
-					(end 1.27 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(circle
-					(center 0 -2.54)
-					(radius 0.635)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.5334 -2.2098) (xy 0.3302 -3.048)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.5334 0.3302) (xy 0.3302 -0.508)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.3556 -2.032) (xy 0.508 -2.8702)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.3556 0.508) (xy 0.508 -0.3302)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 0)
-					(radius 0.635)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Device:D_Schottky"
 			(pin_numbers hide)
 			(pin_names
@@ -4762,6 +4396,105 @@
 				)
 			)
 		)
+		(symbol "storybox:polarized_connector"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 3.048 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "polarized_connector_0_1"
+				(rectangle
+					(start 2.54 0)
+					(end 12.7 -7.62)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "polarized_connector_1_1"
+				(pin power_in line
+					(at 0 -2.54 0)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -5.08 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "storybox:tp4056_charger"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -5396,6 +5129,16 @@
 	)
 	(wire
 		(pts
+			(xy 212.09 71.12) (xy 212.09 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fce4580-a6ae-42a7-b3a3-f26c717f694d")
+	)
+	(wire
+		(pts
 			(xy 124.46 30.48) (xy 124.46 54.61)
 		)
 		(stroke
@@ -5436,6 +5179,16 @@
 	)
 	(wire
 		(pts
+			(xy 105.41 38.1) (xy 105.41 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37b7ebce-637b-43dc-b5fe-2b0fd06ddccc")
+	)
+	(wire
+		(pts
 			(xy 181.61 156.21) (xy 175.26 156.21)
 		)
 		(stroke
@@ -5473,6 +5226,16 @@
 			(type default)
 		)
 		(uuid "3ac2a1d1-7d98-4fbd-a018-295d37a5c73f")
+	)
+	(wire
+		(pts
+			(xy 100.33 41.91) (xy 102.87 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3bd8f33c-4b44-45e0-823c-6a857e0ce170")
 	)
 	(wire
 		(pts
@@ -5633,6 +5396,16 @@
 			(type default)
 		)
 		(uuid "627de513-a46b-423b-830b-2b79aa664742")
+	)
+	(wire
+		(pts
+			(xy 209.55 71.12) (xy 209.55 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63c6b23f-3b15-4998-bf67-66dd9ae00576")
 	)
 	(wire
 		(pts
@@ -5986,16 +5759,6 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 50.8) (xy 105.41 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a375e3dc-d711-49ab-943e-5de945542cd0")
-	)
-	(wire
-		(pts
 			(xy 132.08 73.66) (xy 138.43 73.66)
 		)
 		(stroke
@@ -6246,6 +6009,16 @@
 	)
 	(wire
 		(pts
+			(xy 102.87 41.91) (xy 102.87 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d025964d-609c-4e8f-bb8a-6c7f3635e531")
+	)
+	(wire
+		(pts
 			(xy 181.61 171.45) (xy 160.02 171.45)
 		)
 		(stroke
@@ -6253,26 +6026,6 @@
 			(type default)
 		)
 		(uuid "d2c4fc90-239b-405f-ad71-29b7c8ae5d43")
-	)
-	(wire
-		(pts
-			(xy 209.55 74.93) (xy 209.55 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d2d68d08-2e89-44c9-8df8-dbbf39d86228")
-	)
-	(wire
-		(pts
-			(xy 100.33 41.91) (xy 100.33 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d4f2d82d-e29c-4068-88ed-3433d45d33a0")
 	)
 	(wire
 		(pts
@@ -6486,16 +6239,6 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 77.47) (xy 212.09 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f80b841c-a630-459e-8801-b98cc2a0c8b4")
-	)
-	(wire
-		(pts
 			(xy 26.67 127) (xy 26.67 144.78)
 		)
 		(stroke
@@ -6575,9 +6318,8 @@
 		(uuid "feb686f9-5fad-447a-b0fe-f6d589a8d84d")
 	)
 	(symbol
-		(lib_id "Connector:Jack-DC")
-		(at 102.87 58.42 270)
-		(mirror x)
+		(lib_id "storybox:polarized_connector")
+		(at 107.95 52.07 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6585,7 +6327,7 @@
 		(dnp no)
 		(uuid "07b4eaf9-4fd2-4c75-8116-2ae27d30a7b1")
 		(property "Reference" "Battery1"
-			(at 97.79 57.1499 90)
+			(at 99.314 55.626 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6594,7 +6336,7 @@
 			)
 		)
 		(property "Value" "4.2V"
-			(at 97.79 59.6899 90)
+			(at 99.314 58.166 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6603,7 +6345,7 @@
 			)
 		)
 		(property "Footprint" "storybox:connector_polarized"
-			(at 101.854 57.15 0)
+			(at 107.95 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6612,7 +6354,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 101.854 57.15 0)
+			(at 107.95 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6621,7 +6363,7 @@
 			)
 		)
 		(property "Description" "DC Barrel Jack"
-			(at 102.87 58.42 0)
+			(at 107.95 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6781,8 +6523,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 212.09 69.85 270)
+		(lib_id "storybox:polarized_connector")
+		(at 214.63 71.12 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6791,7 +6533,7 @@
 		(dnp no)
 		(uuid "2783b7ac-c46c-4e2c-b8c9-d9f40ec09f51")
 		(property "Reference" "J3"
-			(at 212.0901 67.31 0)
+			(at 211.074 61.468 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6800,7 +6542,7 @@
 			)
 		)
 		(property "Value" "Speaker"
-			(at 209.5501 67.31 0)
+			(at 215.9 67.564 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6809,7 +6551,7 @@
 			)
 		)
 		(property "Footprint" "storybox:connector_polarized"
-			(at 212.09 69.85 0)
+			(at 214.63 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6818,7 +6560,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 212.09 69.85 0)
+			(at 214.63 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6827,7 +6569,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 212.09 69.85 0)
+			(at 214.63 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
