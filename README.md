@@ -27,8 +27,18 @@ Ce projet est en cours de conception. [Contactez le fablab'ke](https://fablabke.
 Lisez les documents suivants afin de comprendre les différentes étapes de fabrication et comment fabriquer la vôtre : 
 
 - Principe de fonctionnement (todo)
-- Liste des composants nécessaires (todo)
 - Carte électronique chez Aisler (todo)
 - [Assemblage de la carte électronique](./guides/pcb.md)
 - Code source arduino, facilement compilable avec platformio ou l'ide arduino : [/dossier arduino](./arduino)
 - Code circuitpython (todo)
+
+## Liste des composants nécessaires
+- une plaquette d'expérimentation ou le circuit imprimé que l'on peut commander en ligne chez aisler.
+- carte raspberry pi pico
+- carte ampli i2s adafruit https://www.adafruit.com/product/3006 (clone : https://www.aliexpress.com/item/1005005985389931.html )
+- carte chargeur (si vous voulez connecter une batterie) https://www.aliexpress.com/item/1005005982385924.html
+- carte breakout sd adafruit : https://www.adafruit.com/product/4682
+- potentiometre à souder trough hole 10k (par exemple : https://www.mouser.fr/ProductDetail/Same-Sky/PTN16-A10220K1B1?qs=VJzv269c%252BPbZP2voFoR5Tw%3D%3D )
+- prise jack pour casque de ce type : https://www.mouser.be/ProductDetail/Same-Sky/SJ1-3525NG-GR?qs=WyjlAZoYn51BeLQaUbXH3w%3D%3D
+- 3 résistances de 100k
+
