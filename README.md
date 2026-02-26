@@ -1,5 +1,8 @@
 ![Une boite à histoire open hardware](./photos/boite-a-histoire.jpg)
 
+> [!IMPORTANT]
+> Attention, le logiciel de ce projet est en version beta, toute aide serait la bienvenue afin de le rendre plus robuste.
+
 ## Boite à histoire
 
 Une boite à histoire complètement open source et open hardware, un projet du Fablab'ke.
