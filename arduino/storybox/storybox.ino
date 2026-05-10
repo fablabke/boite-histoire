@@ -16,7 +16,7 @@ https://github.com/jonnieZG/EWMA // smooth analog values (for smooth volume oppe
 #include <SPI.h>
 #include <SDFS.h>
 #include "AudioTools.h"
-#include "AudioCodecs/CodecMP3Helix.h"
+#include "AudioTools/AudioCodecs/CodecMP3Helix.h"
 #include "Button2.h"
 #include <Ewma.h>
 
@@ -80,7 +80,8 @@ const int is_pause = 2;
 
 I2SStream i2s;
 VolumeStream volumer(i2s);
-EncodedAudioStream decoder(&volumer, new MP3DecoderHelix());
+MP3DecoderHelix decoder;
+EncodedAudioStream decoder(&volumer, decoder);
 File audioFile;
 // StreamCopy copier(decoder, audioFile, COPIER_BUFFER_SIZE);
 StreamCopy copier;
